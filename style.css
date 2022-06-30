@@ -1,0 +1,35 @@
+section{
+    height: 250px;
+    background-color: #ECFBFC;
+}
+/* section .profile-img img{
+    display: block;
+    width: 200px;
+    margin-top: 12px;
+} */
+.checked {
+    color: orange;
+  }
+.profile-btn{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 991px){
+    section{
+       height: 450px !important;
+    }
+    section .profile-img img{
+        display: block;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 200px;
+    }
+    section .profile-name{
+        margin-top: 0 !important;
+        text-align: center;
+    }
+    section .profile-details{
+        margin-top: 0 !important;
+        /* text-align: center; */
+    }
+}
